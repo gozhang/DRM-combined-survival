@@ -17,17 +17,17 @@ The following are the main R functions for estimating survival functions under t
 - **`rclbrcDRM.estimator()`**  
   Estimates the *unbiased survival function* using RC and LBRC data under the **DRM**.  
   Supports two numerical approaches for fitting the DRM:  
-  - `"eqslv"` — solving the estimating equations;  
-  - `"optimization"` — direct maximization of the empirical likelihood.  
+  - `"eqslv"`: solving the estimating equations;  
+  - `"optimization"`: direct maximization of the empirical likelihood.  
 
 #### **Competing estimators**
 
 Baseline survival estimators used for comparison:
 
-- **`KM.RC.est()`** – Kaplan–Meier NPMLE for RC data.  
-- **`KM.LTRC.est()`** – Kaplan–Meier NPMLE for left-truncated RC data.  
-- **`lbrc.emestimator()`** – EM-based unbiased survival estimator for LBRC data.  
-- **`emcomb.estimator()`** – EM-based unbiased estimator combining RC and LBRC cohorts under the assumption of identical distributions.
+- **`KM.RC.est()`**: Kaplan–Meier NPMLE for RC data.  
+- **`KM.LTRC.est()`**: Kaplan–Meier NPMLE for left-truncated RC data.  
+- **`lbrc.emestimator()`**: EM-based unbiased survival estimator for LBRC data.  
+- **`emcomb.estimator()`**: EM-based unbiased estimator combining RC and LBRC cohorts under the assumption of identical distributions.
 
 
 ### A simulation example
