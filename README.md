@@ -1,5 +1,5 @@
-# R code and demo for the paper  
-**Density Ratio Model (DRM) for Multiple Types of Survival Data with Empirical Likelihood**
+# Density Ratio Model (DRM) for Multiple Types of Survival Data with Empirical Likelihood
+**R code and demo for the paper**
 
 ### Description
 
