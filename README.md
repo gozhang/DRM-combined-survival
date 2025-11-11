@@ -133,3 +133,5 @@ lbrc.est = lbrc.emestimator(lbrc.dat)
 # Estimate survival function nonparametrically using RC and LBRC data together (NPMLE, assuming same failure time distributions)
 rclbrc.est = emcomb.estimator(rc.dat, lbrc.dat)
 ```
+
+Note that the outputs are step functions representing the estimated survival functions, and the DRM output also includes the model parameter estimates.
