@@ -1,11 +1,10 @@
 # Density Ratio Model (DRM) for Multiple Types of Survival Data with Empirical Likelihood
 ## R code and Example
 
-
 ### Description
 
 This repository provides R code implementing the proposed DRM-based survival function estimation method for combined right-censored (RC) and left-truncated right-censored (LBRC) failure time data.
-It also includes implementations of the **competing estimators** (e.g., Kaplan–Meier, NPMLE) considered in the paper, as well as a demo script for reproducing the **simulation studies**.
+It also includes implementations of the **competing estimators** (e.g., Kaplan–Meier, NPMLE) considered in the paper [McVittie and Zhang (2025+)](https://arxiv.org/abs/2511.09398), as well as a demo script for reproducing the **simulation studies**.
 
 
 ### Functions
